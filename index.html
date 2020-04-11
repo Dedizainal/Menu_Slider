@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="img/image.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>Landing Page</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eaque perspiciatis et nemo quia unde
+            nulla magni maiores quas odit?</p>
+        <button class="cta-btn" id="open">Daftar</button>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+        <h1>Tentang</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vero accusantium fuga nihil deleniti
+            voluptates cumque architecto velit fugit, officia inventore. Sed eaque quos ducimus beatae est hic, illo
+            consequatur, repellendus sit doloribus, unde quisquam atque nostrum deserunt quae saepe.</p>
+
+        <h1>Projek</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, quo, voluptate repellendus alias illum
+            odit quis mollitia odio culpa iure animi veritatis maiores. Eos magni repudiandae deleniti quam aspernatur
+            quia?</p>
+
+            <h1>Manfaat</h1>
+            <ul>
+                <li>Dapat di akses seumur hidup</li>
+                <li>Uang anda akan kembali dalam waktu 30 hari</li>
+            </ul>
+    </div>
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Daftar</h2>
+            </div>
+            <div class="modal-content">
+                <p>Daftar untuk mendapatkan harga spesial</p>
+                <div class="modal-form">
+                    <div>
+                        <label for="nama">Nama</label>
+                        <input type="nama" id="nama" placeholder="Masukan nama anda" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Masukan Email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Masukan kata sandi" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password2">Ulangi kata sandi</label>
+                        <input type="password2" id="password2" placeholder="Ulangi password anda" class="form-input">
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
